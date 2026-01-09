@@ -10,6 +10,9 @@
         "/consoleloggerparameters:NoSummary"
       ],
       "type": "process",
+      "options": {
+        "cwd": "${workspaceFolder}/backend/api"
+      },
       "problemMatcher": "$msCompile"
     },
     {
@@ -22,6 +25,9 @@
       ],
       "type": "process",
       "dependsOn": "clean (functions)",
+      "options": {
+        "cwd": "${workspaceFolder}/backend/api"
+      },
       "group": {
         "kind": "build",
         "isDefault": true
@@ -39,6 +45,9 @@
         "/consoleloggerparameters:NoSummary"
       ],
       "type": "process",
+      "options": {
+        "cwd": "${workspaceFolder}/backend/api"
+      },
       "problemMatcher": "$msCompile"
     },
     {
@@ -53,13 +62,16 @@
       ],
       "type": "process",
       "dependsOn": "clean release (functions)",
+      "options": {
+        "cwd": "${workspaceFolder}/backend/api"
+      },
       "problemMatcher": "$msCompile"
     },
     {
       "type": "func",
       "dependsOn": "build (functions)",
       "options": {
-        "cwd": "${workspaceFolder}/bin/Debug/net10.0"
+        "cwd": "${workspaceFolder}/backend\\api/bin/Debug/net8.0"
       },
       "command": "host start",
       "isBackground": true,
