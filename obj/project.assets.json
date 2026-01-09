@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {
+    "net8.0": {
       "Azure.Core/1.49.0": {
         "type": "package",
         "dependencies": {
@@ -251,12 +251,12 @@
           "Microsoft.Azure.Functions.Worker.Grpc": "2.51.0"
         },
         "compile": {
-          "lib/net10.0/Microsoft.Azure.Functions.Worker.dll": {
+          "lib/net8.0/Microsoft.Azure.Functions.Worker.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net10.0/Microsoft.Azure.Functions.Worker.dll": {
+          "lib/net8.0/Microsoft.Azure.Functions.Worker.dll": {
             "related": ".xml"
           }
         }
@@ -282,12 +282,12 @@
           "Azure.Core": "1.44.1"
         },
         "compile": {
-          "lib/net10.0/Microsoft.Azure.Functions.Worker.Core.dll": {
+          "lib/net8.0/Microsoft.Azure.Functions.Worker.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net10.0/Microsoft.Azure.Functions.Worker.Core.dll": {
+          "lib/net8.0/Microsoft.Azure.Functions.Worker.Core.dll": {
             "related": ".xml"
           }
         }
@@ -352,12 +352,12 @@
           "Microsoft.Azure.Functions.Worker.Extensions.Abstractions": "1.3.0"
         },
         "compile": {
-          "lib/net10.0/Microsoft.Azure.Functions.Worker.Grpc.dll": {
+          "lib/net8.0/Microsoft.Azure.Functions.Worker.Grpc.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net10.0/Microsoft.Azure.Functions.Worker.Grpc.dll": {
+          "lib/net8.0/Microsoft.Azure.Functions.Worker.Grpc.dll": {
             "related": ".xml"
           }
         }
@@ -985,8 +985,8 @@
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "lib/net10.0/Microsoft.Azure.Functions.Worker.dll",
-        "lib/net10.0/Microsoft.Azure.Functions.Worker.xml",
+        "lib/net8.0/Microsoft.Azure.Functions.Worker.dll",
+        "lib/net8.0/Microsoft.Azure.Functions.Worker.xml",
         "lib/net6.0/Microsoft.Azure.Functions.Worker.dll",
         "lib/net6.0/Microsoft.Azure.Functions.Worker.xml",
         "lib/net7.0/Microsoft.Azure.Functions.Worker.dll",
@@ -1023,8 +1023,8 @@
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "lib/net10.0/Microsoft.Azure.Functions.Worker.Core.dll",
-        "lib/net10.0/Microsoft.Azure.Functions.Worker.Core.xml",
+        "lib/net8.0/Microsoft.Azure.Functions.Worker.Core.dll",
+        "lib/net8.0/Microsoft.Azure.Functions.Worker.Core.xml",
         "lib/net6.0/Microsoft.Azure.Functions.Worker.Core.dll",
         "lib/net6.0/Microsoft.Azure.Functions.Worker.Core.xml",
         "lib/net8.0/Microsoft.Azure.Functions.Worker.Core.dll",
@@ -1101,8 +1101,8 @@
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "lib/net10.0/Microsoft.Azure.Functions.Worker.Grpc.dll",
-        "lib/net10.0/Microsoft.Azure.Functions.Worker.Grpc.xml",
+        "lib/net8.0/Microsoft.Azure.Functions.Worker.Grpc.dll",
+        "lib/net8.0/Microsoft.Azure.Functions.Worker.Grpc.xml",
         "lib/net6.0/Microsoft.Azure.Functions.Worker.Grpc.dll",
         "lib/net6.0/Microsoft.Azure.Functions.Worker.Grpc.xml",
         "lib/net7.0/Microsoft.Azure.Functions.Worker.Grpc.dll",
@@ -1661,7 +1661,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net10.0": [
+    "net8.0": [
       "Microsoft.ApplicationInsights.WorkerService >= 2.23.0",
       "Microsoft.Azure.Functions.Worker >= 2.51.0",
       "Microsoft.Azure.Functions.Worker.ApplicationInsights >= 2.50.0",
@@ -1685,14 +1685,14 @@
         "C:\\Users\\phoeb\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net10.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net10.0": {
-          "targetAlias": "net10.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -1709,8 +1709,8 @@
       "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
-      "net10.0": {
-        "targetAlias": "net10.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.ApplicationInsights.WorkerService": {
             "target": "Package",
